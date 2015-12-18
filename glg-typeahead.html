@@ -21,7 +21,9 @@
     <paper-dropdown-menu id="results">
       <paper-menu selected="[[selectedItem]]" attr-for-selected="value" on-iron-select="_fireItemSelected">
         <template is="dom-repeat" items="[[results]]">
-          <paper-item value="[[item]]"></paper-item>
+          <paper-item value="[[item]]">
+            <content select="glg-typeahead-item"></content>
+          </paper-item>
         </template>
       </paper-menu>
     </paper-dropdown-menu>
@@ -31,14 +33,13 @@
   Polymer({
     is: 'glg-typeahead',
     properties: {
-      searchString: {
-        type: String,
-        notify: true,
-        value: null
-      },
       autofocus: {
         type: Boolean,
         value: false
+      },
+      debounce: {
+        type: Number,
+        value: 0
       },
       label: {
         type: String,
@@ -48,17 +49,22 @@
         type: String,
         value: null
       },
-      selectedItem: {
-        type: String,
-        value: null
-      },
       results: {
         type: Array,
         value: []
+      },
+      searchString: {
+        type: String,
+        notify: true,
+        value: null
+      },
+      selectedItem: {
+        type: String,
+        value: null
       }
     },
     _fireInputUpdated: function(event) {
-      this.fire('input-updated', event.detail.results);
+      this.fire('input-updated', event.detail.value);
     },
     _fireItemSelected: function(event) {
       this.fire('item-selected', event.detail.item);
