@@ -1,0 +1,23 @@
+{
+  "name": "glg-typeahead",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Custom-Elements/glg-typeahead",
+  "authors": [
+    "Steve Quince"
+  ],
+  "description": "Polymer 1.0 typeahead element - intended to be used with cerca n-gram indexes",
+  "main": "glg-typeahead.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~1.2.3",
+    "paper-elements": "PolymerElements/paper-elements#~1.0.7"
+  }
+}

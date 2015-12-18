@@ -1,0 +1,68 @@
+<!-- glg-typeahead for Polymer 1.0 -->
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../paper-dropdown-menu/paper-dropdown-menu.html">
+<link rel="import" href="../paper-input/paper-input.html">
+<link rel="import" href="../paper-item/paper-item.html">
+
+<dom-module id="glg-typeahead">
+  <template>
+    <paper-input
+      id="search"
+      value="{{searchString}}"
+      label="[[label]]"
+      autofocus="[[autofocus]]"
+      placeholder="[[placeholder]]"
+      type="text"
+      on-change="_fireInputUpdated"
+      no-label-float
+      autocomplete="off"
+    >
+    </paper-input>
+    <paper-dropdown-menu id="results">
+      <paper-menu selected="[[selectedItem]]" attr-for-selected="value" on-iron-select="_fireItemSelected">
+        <template is="dom-repeat" items="[[results]]">
+          <paper-item value="[[item]]"></paper-item>
+        </template>
+      </paper-menu>
+    </paper-dropdown-menu>
+  </template>
+</dom-module>
+<script>
+  Polymer({
+    is: 'glg-typeahead',
+    properties: {
+      searchString: {
+        type: String,
+        notify: true,
+        value: null
+      },
+      autofocus: {
+        type: Boolean,
+        value: false
+      },
+      label: {
+        type: String,
+        value: null
+      },
+      placeholder: {
+        type: String,
+        value: null
+      },
+      selectedItem: {
+        type: String,
+        value: null
+      },
+      results: {
+        type: Array,
+        value: []
+      }
+    },
+    _fireInputUpdated: function(event) {
+      this.fire('input-updated', event.detail.results);
+    },
+    _fireItemSelected: function(event) {
+      this.fire('item-selected', event.detail.item);
+      this.$.search.placeholder = event.detail.item.name;
+    }
+  });
+</script>
