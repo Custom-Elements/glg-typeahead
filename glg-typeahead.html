@@ -64,11 +64,11 @@
       }
     },
     _fireInputUpdated: function(event) {
-      this.fire('input-updated', event.detail.value);
+      this.fire('input-updated', this.searchString);
     },
     _fireItemSelected: function(event) {
-      this.fire('item-selected', event.detail.item);
-      this.$.search.placeholder = event.detail.item.name;
+      this.fire('item-selected', this.selectedItem);
+      this.$.search.placeholder = this.selectedItem.name;
     }
   });
 </script>
