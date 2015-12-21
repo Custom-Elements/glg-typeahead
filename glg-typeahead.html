@@ -18,15 +18,23 @@
       autocomplete="off"
     >
     </paper-input>
-    <paper-dropdown-menu id="results">
-      <paper-menu selected="[[selectedItem]]" attr-for-selected="value" on-iron-select="_fireItemSelected">
-        <template is="dom-repeat" items="[[results]]">
-          <paper-item value="[[item]]">
-            <content select="glg-typeahead-item"></content>
-          </paper-item>
-        </template>
-      </paper-menu>
-    </paper-dropdown-menu>
+    <paper-menu
+      selected="[[selectedItem]]"
+      attr-for-selected="id"
+      on-iron-select="_fireItemSelected"
+      >
+      <template id="autocomplete" is="dom-repeat" items="{{results}}">
+        <paper-item id="{{item._id}}">
+          <div class="cm-name">
+            <span>{{item.name || item._source.name}}</span>
+            <div class="cm-meta">
+              <span>{{item.title || item._source.title}} </span>
+              <span class="proj-meta-important"> {{item.company || item._source.company}}</span>
+            </div>
+          </div>
+        </paper-item>
+      </template>
+    </paper-menu>
   </template>
 </dom-module>
 <script>
