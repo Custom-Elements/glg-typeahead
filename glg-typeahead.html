@@ -26,13 +26,13 @@
       >
       <template id="autocomplete" is="dom-repeat" items="{{results}}">
         <paper-item id="{{item._id}}">
-          <div class="cm-name">
-            <span>{{item.name || item._source.name}}</span>
+          <paper-item-body two-line>
+            <div class="cm-name">{{item._source.name}}</div>
             <div class="cm-meta">
-              <span>{{item.title || item._source.title}} </span>
-              <span class="proj-meta-important"> {{item.company || item._source.company}}</span>
+              <span>{{item._source.title}} </span>
+              <span class="cm-company"> {{item._source.company}}</span>
             </div>
-          </div>
+          </paper-item-body>
         </paper-item>
       </template>
     </paper-menu>
