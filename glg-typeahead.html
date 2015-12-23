@@ -28,10 +28,8 @@
         <paper-item id="{{item._id}}">
           <paper-item-body two-line>
             <div class="cm-name">{{item._source.name}}</div>
-            <div class="cm-meta">
-              <span>{{item._source.title}} </span>
-              <span class="cm-company"> {{item._source.company}}</span>
-            </div>
+            <div class="cm-meta">{{item._source.title}}</div>
+            <div class="cm-meta cm-company">{{item._source.company}}</div>
           </paper-item-body>
         </paper-item>
       </template>
