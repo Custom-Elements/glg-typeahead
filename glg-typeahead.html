@@ -44,7 +44,7 @@
         type: Boolean,
         value: false
       },
-      debounce: {
+      waitDuration: {
         type: Number,
         value: 0
       },
@@ -71,7 +71,10 @@
       }
     },
     _fireInputUpdated: function(event) {
-      this.fire('input-updated', this.searchString);
+      this.debounce('inputChanged', function() {
+          this.fire('input-updated', this.searchString);
+        },this.waitDuration
+      );
     },
     _fireItemSelected: function(event) {
       this.fire('item-selected', this.selectedItem);
