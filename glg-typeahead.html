@@ -13,7 +13,7 @@
       autofocus="[[autofocus]]"
       placeholder="[[placeholder]]"
       type="text"
-      on-change="_fireInputUpdated"
+      on-input="_fireInputUpdated"
       no-label-float
       autocomplete="off"
     >
@@ -26,6 +26,7 @@
       on-iron-select="_fireItemSelected"
       >
       <template id="autocomplete" is="dom-repeat" items="{{results}}">
+        <!-- TODO: embed the item template within the body of the glg-typeahead element -->
         <paper-item cm-id="{{item._id}}" cm-person-id="{{item._source.personId}}" name="{{item._source.name}}" job-title="{{item._source.title}}" company="{{item._source.company}}">
           <paper-item-body two-line>
             <div class="cm-name">{{item._source.name}}</div>
