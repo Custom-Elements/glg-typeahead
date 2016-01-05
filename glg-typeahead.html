@@ -22,11 +22,11 @@
       id="typeaheadResults"
       style="display: none; position: absolute;"
       selected="[[selectedItem]]"
-      attr-for-selected="id"
+      attr-for-selected="cmId"
       on-iron-select="_fireItemSelected"
       >
       <template id="autocomplete" is="dom-repeat" items="{{results}}">
-        <paper-item id="{{item._id}}" name="{{item._source.name}}" job-title="{{item._source.title}}" company="{{item._source.company}}">
+        <paper-item cm-id="{{item._id}}" cm-person-id="{{item._source.personId}}" name="{{item._source.name}}" job-title="{{item._source.title}}" company="{{item._source.company}}">
           <paper-item-body two-line>
             <div class="cm-name">{{item._source.name}}</div>
             <div class="cm-meta">{{item._source.title}}</div>
