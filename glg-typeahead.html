@@ -25,16 +25,7 @@
       attr-for-selected="cmId"
       on-iron-select="_fireItemSelected"
       >
-      <template id="autocomplete" is="dom-repeat" items="{{results}}">
-        <!-- TODO: embed the item template within the body of the glg-typeahead element -->
-        <paper-item cm-id="{{item._id}}" cm-person-id="{{item._source.personId}}" name="{{item._source.name}}" job-title="{{item._source.title}}" company="{{item._source.company}}">
-          <paper-item-body two-line>
-            <div class="cm-name">{{item._source.name}}</div>
-            <div class="cm-meta">{{item._source.title}}</div>
-            <div class="cm-meta cm-company">{{item._source.company}}</div>
-          </paper-item-body>
-        </paper-item>
-      </template>
+      <content></content>
     </paper-menu>
   </template>
 </dom-module>
@@ -58,11 +49,6 @@
         type: String,
         value: null
       },
-      results: {
-        type: Array,
-        value: [],
-        observer: '_updateResultsDisplay'
-      },
       searchString: {
         type: String,
         notify: true,
@@ -72,6 +58,10 @@
         type: String,
         value: null
       }
+    },
+    ready: function() {
+      var boundHandler = this._updateResultsDisplay.bind(this);
+      Polymer.dom(this.$.typeaheadResults.querySelector('.selectable-content')).observeNodes(boundHandler);
     },
     _fireInputUpdated: function(event) {
       this.debounce('inputChanged', function() {
@@ -84,11 +74,11 @@
       this.$.search.value = null;
       this.$.typeaheadResults.style.display = 'none';
     },
-    _updateResultsDisplay: function(newResults, oldResults) {
-      if (newResults.length <= 0) {
-        this.$.typeaheadResults.style.display = 'none';
-      } else {
+    _updateResultsDisplay: function(info) {
+      if (info.target.querySelector('*:not(template)')) {
         this.$.typeaheadResults.style.display = null;
+      } else {
+        this.$.typeaheadResults.style.display = 'none';
       }
     }
   });
