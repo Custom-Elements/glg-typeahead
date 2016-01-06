@@ -81,7 +81,7 @@
     },
     _fireItemSelected: function(event) {
       this.fire('item-selected', this.$.typeaheadResults.selectedItem);
-      this.$.search.value = this.$.typeaheadResults.selectedItem.name;
+      this.$.search.value = null;
       this.$.typeaheadResults.style.display = 'none';
     },
     _updateResultsDisplay: function(newResults, oldResults) {
