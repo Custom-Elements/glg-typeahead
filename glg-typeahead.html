@@ -72,6 +72,7 @@
     _fireItemSelected: function(event) {
       this.fire('item-selected', this.$.typeaheadResults.selectedItem);
       this.$.search.value = null;
+      this.$.typeaheadResults.selected = null;
       this.$.typeaheadResults.style.display = 'none';
     },
     _updateResultsDisplay: function(info) {
