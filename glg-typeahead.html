@@ -22,7 +22,7 @@
       id="typeaheadResults"
       style="display: none; position: absolute;"
       selected="[[selectedItem]]"
-      attr-for-selected="cmId"
+      attr-for-selected="[[attrForSelected]]"
       on-iron-select="_fireItemSelected"
       >
       <content></content>
@@ -33,6 +33,10 @@
   Polymer({
     is: 'glg-typeahead',
     properties: {
+      attrForSelected: {
+        type: String,
+        value: null
+      },
       autofocus: {
         type: Boolean,
         value: false
