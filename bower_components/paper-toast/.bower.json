@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-toast.git"
+    "url": "git+https://github.com/PolymerElements/paper-toast.git"
   },
   "main": "paper-toast.html",
   "dependencies": {
@@ -38,7 +38,7 @@
     "tag": "v1.1.1",
     "commit": "65d74effb8280d17f3fb78dc0e7948face2ebe77"
   },
-  "_source": "git://github.com/PolymerElements/paper-toast.git",
+  "_source": "git+https://github.com/PolymerElements/paper-toast.git",
   "_target": "^1.0.0",
   "_originalSource": "PolymerElements/paper-toast"
 }

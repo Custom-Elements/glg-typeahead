@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-drawer-panel.git"
+    "url": "git+https://github.com/PolymerElements/paper-drawer-panel.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/paper-drawer-panel",

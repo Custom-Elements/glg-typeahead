@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-elements.git"
+    "url": "git+https://github.com/PolymerElements/paper-elements.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "ignore": [

@@ -14,7 +14,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/iron-dropdown"
+    "url": "git+https://github.com/PolymerElements/iron-dropdown"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/iron-dropdown",
@@ -42,7 +42,7 @@
     "tag": "v1.1.0",
     "commit": "b09b0d57ba917bac9315de4761373d88e85ac52e"
   },
-  "_source": "git://github.com/polymerelements/iron-dropdown.git",
+  "_source": "git+https://github.com/polymerelements/iron-dropdown.git",
   "_target": "^1.0.0",
   "_originalSource": "polymerelements/iron-dropdown"
 }

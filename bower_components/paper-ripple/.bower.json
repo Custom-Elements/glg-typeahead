@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-ripple.git"
+    "url": "git+https://github.com/PolymerElements/paper-ripple.git"
   },
   "main": "paper-ripple.html",
   "dependencies": {
@@ -39,7 +39,7 @@
     "tag": "v1.0.5",
     "commit": "d72e7a9a8ab518b901ed18dde492df3b87a93be5"
   },
-  "_source": "git://github.com/PolymerElements/paper-ripple.git",
+  "_source": "git+https://github.com/PolymerElements/paper-ripple.git",
   "_target": "^1.0.0",
   "_originalSource": "PolymerElements/paper-ripple"
 }

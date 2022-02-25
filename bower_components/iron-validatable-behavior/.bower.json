@@ -15,7 +15,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/iron-validatable-behavior.git"
+    "url": "git+https://github.com/PolymerElements/iron-validatable-behavior.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/iron-validatable-behavior",
@@ -38,7 +38,7 @@
     "tag": "v1.0.5",
     "commit": "c1334b835892b3d7a329a8e6b8741d4be3a8d99c"
   },
-  "_source": "git://github.com/PolymerElements/iron-validatable-behavior.git",
+  "_source": "git+https://github.com/PolymerElements/iron-validatable-behavior.git",
   "_target": "^1.0.0",
   "_originalSource": "PolymerElements/iron-validatable-behavior"
 }

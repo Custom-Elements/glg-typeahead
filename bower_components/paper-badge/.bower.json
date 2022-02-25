@@ -14,7 +14,7 @@
   "main": "paper-badge.html",
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-badge.git"
+    "url": "git+https://github.com/PolymerElements/paper-badge.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/paper-badge",
@@ -38,7 +38,7 @@
     "tag": "v1.1.1",
     "commit": "2a984d50134cd438df59d16fae43f57ee248f3b7"
   },
-  "_source": "git://github.com/PolymerElements/paper-badge.git",
+  "_source": "git+https://github.com/PolymerElements/paper-badge.git",
   "_target": "^1.0.0",
   "_originalSource": "PolymerElements/paper-badge"
 }

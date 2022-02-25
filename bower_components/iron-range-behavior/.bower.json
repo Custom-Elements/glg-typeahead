@@ -15,7 +15,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/iron-range-behavior.git"
+    "url": "git+https://github.com/PolymerElements/iron-range-behavior.git"
   },
   "dependencies": {
     "polymer": "Polymer/polymer#^1.0.0"
@@ -34,7 +34,7 @@
     "tag": "v1.0.4",
     "commit": "71774a7d8a8c377496bfe05e60b754e91216e0b9"
   },
-  "_source": "git://github.com/PolymerElements/iron-range-behavior.git",
+  "_source": "git+https://github.com/PolymerElements/iron-range-behavior.git",
   "_target": "^1.0.0",
   "_originalSource": "PolymerElements/iron-range-behavior"
 }

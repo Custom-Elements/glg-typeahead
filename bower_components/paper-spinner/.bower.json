@@ -14,7 +14,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-spinner"
+    "url": "git+https://github.com/PolymerElements/paper-spinner"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/paper-spinner",
@@ -40,7 +40,7 @@
     "tag": "v1.1.0",
     "commit": "66d77a91969b5f2deff4f2363740ccf4a47d423b"
   },
-  "_source": "git://github.com/PolymerElements/paper-spinner.git",
+  "_source": "git+https://github.com/PolymerElements/paper-spinner.git",
   "_target": "^1.0.0",
   "_originalSource": "PolymerElements/paper-spinner"
 }

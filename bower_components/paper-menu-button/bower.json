@@ -16,7 +16,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-menu-button"
+    "url": "git+https://github.com/PolymerElements/paper-menu-button"
   },
   "license": "MIT",
   "homepage": "https://github.com/PolymerElements/paper-menu-button",

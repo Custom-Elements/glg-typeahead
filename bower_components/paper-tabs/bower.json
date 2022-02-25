@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-tabs.git"
+    "url": "git+https://github.com/PolymerElements/paper-tabs.git"
   },
   "dependencies": {
     "iron-behaviors": "PolymerElements/iron-behaviors#^1.0.0",

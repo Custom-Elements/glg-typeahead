@@ -14,7 +14,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-radio-group.git"
+    "url": "git+https://github.com/PolymerElements/paper-radio-group.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/paper-radio-group",
@@ -40,7 +40,7 @@
     "tag": "v1.0.8",
     "commit": "398bb090d50b1422ba1848ae531cff6e6aff753f"
   },
-  "_source": "git://github.com/PolymerElements/paper-radio-group.git",
+  "_source": "git+https://github.com/PolymerElements/paper-radio-group.git",
   "_target": "^1.0.0",
   "_originalSource": "PolymerElements/paper-radio-group"
 }

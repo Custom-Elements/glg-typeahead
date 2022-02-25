@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/iron-selector.git"
+    "url": "git+https://github.com/PolymerElements/iron-selector.git"
   },
   "homepage": "https://github.com/PolymerElements/iron-selector",
   "ignore": [],
