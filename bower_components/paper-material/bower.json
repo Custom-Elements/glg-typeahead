@@ -16,7 +16,7 @@
   "main": "paper-material.html",
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-material"
+    "url": "git+https://github.com/PolymerElements/paper-material"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/paper-material",

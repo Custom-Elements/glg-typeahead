@@ -14,7 +14,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-dialog-behavior"
+    "url": "git+https://github.com/PolymerElements/paper-dialog-behavior"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/paper-dialog-behavior",
@@ -38,7 +38,7 @@
     "tag": "v1.1.0",
     "commit": "e41d36a798df2ee2f9f49fb27dd7712e55366595"
   },
-  "_source": "git://github.com/PolymerElements/paper-dialog-behavior.git",
+  "_source": "git+https://github.com/PolymerElements/paper-dialog-behavior.git",
   "_target": "^1.0.0",
   "_originalSource": "PolymerElements/paper-dialog-behavior"
 }

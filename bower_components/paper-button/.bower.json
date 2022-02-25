@@ -16,7 +16,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-button"
+    "url": "git+https://github.com/PolymerElements/paper-button"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/paper-button",
@@ -45,7 +45,7 @@
     "tag": "v1.0.11",
     "commit": "7d0f75300372d91835ae7298593d50987d4a610f"
   },
-  "_source": "git://github.com/PolymerElements/paper-button.git",
+  "_source": "git+https://github.com/PolymerElements/paper-button.git",
   "_target": "^1.0.0",
   "_originalSource": "PolymerElements/paper-button"
 }

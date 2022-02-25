@@ -15,7 +15,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/iron-autogrow-textarea.git"
+    "url": "git+https://github.com/PolymerElements/iron-autogrow-textarea.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/iron-autogrow-textarea",
@@ -41,7 +41,7 @@
     "tag": "v1.0.10",
     "commit": "1ba4f97e250dc14e9638d95be582dd62b9083736"
   },
-  "_source": "git://github.com/PolymerElements/iron-autogrow-textarea.git",
+  "_source": "git+https://github.com/PolymerElements/iron-autogrow-textarea.git",
   "_target": "^1.0.0",
   "_originalSource": "PolymerElements/iron-autogrow-textarea"
 }

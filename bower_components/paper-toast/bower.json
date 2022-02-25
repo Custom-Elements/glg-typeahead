@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-toast.git"
+    "url": "git+https://github.com/PolymerElements/paper-toast.git"
   },
   "main": "paper-toast.html",
   "dependencies": {

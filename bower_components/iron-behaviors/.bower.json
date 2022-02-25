@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/iron-behaviors.git"
+    "url": "git+https://github.com/PolymerElements/iron-behaviors.git"
   },
   "main": [
     "iron-button-state.html",
@@ -36,7 +36,7 @@
     "tag": "v1.0.12",
     "commit": "657f526a2382a659cdf4e13be87ecc89261588a3"
   },
-  "_source": "git://github.com/PolymerElements/iron-behaviors.git",
+  "_source": "git+https://github.com/PolymerElements/iron-behaviors.git",
   "_target": "^1.0.0",
   "_originalSource": "PolymerElements/iron-behaviors"
 }

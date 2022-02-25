@@ -14,7 +14,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-card.git"
+    "url": "git+https://github.com/PolymerElements/paper-card.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/paper-card",
@@ -42,7 +42,7 @@
     "tag": "v1.0.8",
     "commit": "3144145f93eba7208b55c4c9be5cf3d861c2a736"
   },
-  "_source": "git://github.com/PolymerElements/paper-card.git",
+  "_source": "git+https://github.com/PolymerElements/paper-card.git",
   "_target": "^1.0.0",
   "_originalSource": "PolymerElements/paper-card"
 }

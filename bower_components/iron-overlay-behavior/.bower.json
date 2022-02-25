@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/iron-overlay-behavior.git"
+    "url": "git+https://github.com/PolymerElements/iron-overlay-behavior.git"
   },
   "dependencies": {
     "polymer": "Polymer/polymer#^1.0.0",
@@ -40,7 +40,7 @@
     "tag": "v1.1.2",
     "commit": "40e39a971474f48f5c2c8ee7b8568a0ad5426bd8"
   },
-  "_source": "git://github.com/PolymerElements/iron-overlay-behavior.git",
+  "_source": "git+https://github.com/PolymerElements/iron-overlay-behavior.git",
   "_target": "^1.0.0",
   "_originalSource": "PolymerElements/iron-overlay-behavior"
 }

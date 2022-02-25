@@ -14,7 +14,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/iron-input.git"
+    "url": "git+https://github.com/PolymerElements/iron-input.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/iron-input",
@@ -37,7 +37,7 @@
     "tag": "v1.0.7",
     "commit": "7ba38f9121694d72b7390567cb91b6ac18141d2b"
   },
-  "_source": "git://github.com/PolymerElements/iron-input.git",
+  "_source": "git+https://github.com/PolymerElements/iron-input.git",
   "_target": "^1.0.0",
   "_originalSource": "PolymerElements/iron-input"
 }

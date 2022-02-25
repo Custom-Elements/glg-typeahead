@@ -15,7 +15,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-listbox"
+    "url": "git+https://github.com/PolymerElements/paper-listbox"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/paper-listbox",
@@ -41,7 +41,7 @@
     "tag": "v1.1.0",
     "commit": "23d66c69d2b8e9076333278f5931b8c074fcbe4b"
   },
-  "_source": "git://github.com/polymerelements/paper-listbox.git",
+  "_source": "git+https://github.com/polymerelements/paper-listbox.git",
   "_target": "^1.0.0",
   "_originalSource": "polymerelements/paper-listbox"
 }

@@ -13,7 +13,7 @@
   "main": "paper-header-panel.html",
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-header-panel.git"
+    "url": "git+https://github.com/PolymerElements/paper-header-panel.git"
   },
   "private": true,
   "license": "http://polymer.github.io/LICENSE.txt",

@@ -14,7 +14,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-toggle-button"
+    "url": "git+https://github.com/PolymerElements/paper-toggle-button"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/paper-toggle-button",
@@ -42,7 +42,7 @@
     "tag": "v1.0.12",
     "commit": "363fb16086662fea165668ffe10be233e02e0aa9"
   },
-  "_source": "git://github.com/PolymerElements/paper-toggle-button.git",
+  "_source": "git+https://github.com/PolymerElements/paper-toggle-button.git",
   "_target": "^1.0.0",
   "_originalSource": "PolymerElements/paper-toggle-button"
 }

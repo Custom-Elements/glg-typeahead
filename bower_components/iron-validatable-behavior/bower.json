@@ -15,7 +15,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/iron-validatable-behavior.git"
+    "url": "git+https://github.com/PolymerElements/iron-validatable-behavior.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/iron-validatable-behavior",

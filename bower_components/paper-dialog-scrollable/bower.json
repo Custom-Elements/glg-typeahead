@@ -15,7 +15,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-dialog-scrollable"
+    "url": "git+https://github.com/PolymerElements/paper-dialog-scrollable"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/paper-dialog-scrollable",

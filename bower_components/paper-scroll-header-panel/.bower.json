@@ -14,7 +14,7 @@
   "main": "paper-scroll-header-panel.html",
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-scroll-header-panel.git"
+    "url": "git+https://github.com/PolymerElements/paper-scroll-header-panel.git"
   },
   "dependencies": {
     "polymer": "Polymer/polymer#^1.0.0",
@@ -41,7 +41,7 @@
     "tag": "v1.0.13",
     "commit": "7aae000d1a73fa3ee3a1e2fd662363059222a85a"
   },
-  "_source": "git://github.com/PolymerElements/paper-scroll-header-panel.git",
+  "_source": "git+https://github.com/PolymerElements/paper-scroll-header-panel.git",
   "_target": "^1.0.0",
   "_originalSource": "PolymerElements/paper-scroll-header-panel"
 }
